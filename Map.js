@@ -108,7 +108,7 @@ var recAttributes = rectangles
 */
    
 
-d3.csv("Dataset/day-age-sex-loc.csv", function(dataDeathDay) {
+d3.csv("DataSet/day-age-sex-loc.csv", function(dataDeathDay) {
 var slider = createD3RangeSlider(0, 41, "#slider");
 slider.onChange(function(x){
 var startdate=x.begin+1;
