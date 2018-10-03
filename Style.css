@@ -1,0 +1,55 @@
+﻿<style type="text/css">
+#map {
+float:right;
+	min-width: 200px;
+	max-width: 200px;
+	height: 200px;
+	width:200px;
+	margin-right:500px;
+	margin-top:600px;
+}
+#chart {
+	max-width: 200px;
+	min-width: 200px;
+	float: left;
+	display: block;
+}s
+.box1 {
+	max-width: 600px;
+	min-width: 650px;
+	float: left;
+	display: inline-block;
+}
+#left {
+	max-width: 1200px;
+	min-width: 1200px;
+	float: left;
+}
+#slider {
+	height: 35px;
+	width: 520px;
+	margin-left: 80px;
+	margin-top: 0px;
+	margin-bottom: 0px;
+}
+body, h1, h2 {
+	font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+}
+}
+#chart1 {
+	margin-top: 0px;
+}
+#T-period, #T-period2 {
+margin-left:80px;
+	text-align: left;
+}
+#gray {
+	color: rgb(189,189,189);
+}
+#purpule {
+	color: rgb(142,124,195);
+}
+.axis {
+	font: menu 20 px;
+}
+</style>
