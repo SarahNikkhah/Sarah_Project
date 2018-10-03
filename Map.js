@@ -59,7 +59,7 @@ var circles = mapbox.selectAll("circle")
                           .append("circle");
 var circleAttributes = circles
                        .attr("cx", function (d) { return 15.5*40; })
-                       .attr("cy", function (d) { return 10.5(-40)+10.0153532*40*2; })
+                       .attr("cy", function (d) { return 10.5*(-40)+10.0153532*40*2; })
                        .attr("r", function (d) { return 30 })
                        .style("fill", function(d) { return "rgba(0, 0, 255,1)"; });
 
