@@ -59,7 +59,7 @@ var circles = mapbox.selectAll("circle")
                           .append("circle");
 var circleAttributes = circles
                        .attr("cx", function (d) { return 15.5*40; })
-                       .attr("cy", function (d) { return 13.5*(-40)+10.0153532*40*2; })
+                       .attr("cy", function (d) { return 10.5(-40)+10.0153532*40*2; })
                        .attr("r", function (d) { return 30 })
                        .style("fill", function(d) { return "rgba(0, 0, 255,1)"; });
 
@@ -73,7 +73,7 @@ var rectangles = mapbox.selectAll("rect")
                         
 var recAttributes = rectangles
 					  .attr("x", function (d) { return 11*40;})
-                      .attr("y", function (d) { return 13*(-40)+10.0153532*40*2; })
+                      .attr("y", function (d) { return 13.5*(-40)+10.0153532*40*2; })
                       .attr("width",  function (d) { return 70;})
        			      .attr("height",  function (d) { return 40;} )
                       .style("fill", function(d) { return "rgba(0, 255, 0,0.4)"; });
